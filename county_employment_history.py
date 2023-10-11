@@ -6,7 +6,7 @@ import pyarrow.parquet as pq
 # Data was obtained from https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data/
 
 # %%
-us_counties = pl.read_csv("../county_employment_history/US-counties-employment-info.csv")
+us_counties = pl.read_csv("../COUNTY_EMPLOYMENT_DATA/US-counties-employment-info.csv")
 # %%
 us_counties
 
