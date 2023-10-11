@@ -11,7 +11,7 @@ us_counties = pl.read_csv("../county_employment_history/US-counties-employment-i
 us_counties
 
 # %%
-columns_to_remove = ["State", "Area_Name"] 
+columns_to_remove = ["State", "Area_Name", "Rural_Urban_Continuum_Code_2013","Urban_Influence_Code_2013", "Metro_2013", "Med_HH_Income_Percent_of_State_Total_2021" ] 
 us_counties = us_counties.select([col for col in us_counties.columns if col not in columns_to_remove])
 # %%
 us_counties
