@@ -2,14 +2,14 @@
 
 ### This dataset represents unemployment and median household income for the US from 2000 to 2022
 
-- **fips:** The Federal Information Prcessing ([FIPS](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips)) ID for each county.
+- **FIPS_Code:** The Federal Information Prcessing ([FIPS](https://www.nist.gov/standardsgov/compliance-faqs-federal-information-processing-standards-fips)) ID for each county.
 
 - **2000-2022** The data ranges from the years 2000 to 2022. Every year has these columns below with specifics to which year it was
 
 * Civilian_labor_force - Civilian labor force annual average
 * Employed - Number employed annual average
 * Unemployed - Number unemployed annual average
-* Unemployment_rate_2003 - Unemployment rate
+* Unemployment_rate - Unemployment rate
 
 ## Missingness
 
