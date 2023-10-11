@@ -24,6 +24,7 @@ for i in values:
     print(str(i))
     us_counties.slice(i, lslice).write_parquet("county_employment_history_meta/meta_" + str(i) +".parquet")
 # %%
+# read parquet file
 df = pl.read_parquet("county_employment_history_meta/*")
 # %%
 df.shape
