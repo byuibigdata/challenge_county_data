@@ -28,5 +28,6 @@ df = pl.read_parquet("county_employment_history_meta/*")
 # %%
 df.shape
 # %%
+# display first 20 lines
 df.head(20)
 # %%
